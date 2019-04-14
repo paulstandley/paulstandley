@@ -1,25 +1,13 @@
 import React, { Component } from 'react';
-import iconMarker from './iconMarker.svg';
+import Page from '../src/components/index';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={iconMarker} className="App-logo" alt="logo" />
-          <p>
-            Work in progress <code>() => null</code>
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        hello world
+        <Page />
       </div>
     );
   }
