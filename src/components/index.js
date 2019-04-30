@@ -6,7 +6,11 @@ class Page extends Component {
     this.state = {  }
   }
   render() { 
-    return ( <h2>Hi Ya</h2> );
+    return (
+      <React.Fragment>
+        <img src="https://res.cloudinary.com/pieol2/image/upload/v1556650736/flu.jpg" alt="me looking sorry" width="600" />
+      </React.Fragment>
+    );
   }
 }
  
