@@ -8,7 +8,8 @@ class Page extends Component {
   render() { 
     return (
       <React.Fragment>
-        <img src="https://res.cloudinary.com/pieol2/image/upload/v1556650736/flu.jpg" alt="me looking sorry" width="600" />
+        <h1>I have the flu and want to die :( .</h1>
+        <img src="https://res.cloudinary.com/pieol2/image/upload/v1556650736/flu.jpg" alt="me looking sorry" width="800" />
       </React.Fragment>
     );
   }
